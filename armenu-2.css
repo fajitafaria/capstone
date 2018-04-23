@@ -127,3 +127,30 @@ table {
 #mySidenav {
 	width: 205px;
 }
+*/
+.orderWindow{
+
+}
+img {
+height: 200px;
+  width: auto;
+}
+span {
+  font-weight: bold;
+}
+
+.highlightitem {
+  background-color: yellow;
+}
+
+.confirmation {
+  text-align: center;
+}
+
+.currentorder {
+
+}
+
+.orderPreview {
+    
+}

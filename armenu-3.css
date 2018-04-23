@@ -11,12 +11,16 @@ h2 {
 }
 
 td {
-	padding: 10px;
-
+	padding: 5px;
+}
+#header {
+  background-color: silver;
 }
 
 table {
     margin: 0 auto;
+    margin-bottom: 30px;
+    border: 2px solid maroon;
 }
 
 .dollar-meal {
@@ -126,4 +130,31 @@ table {
 /*
 #mySidenav {
 	width: 205px;
+}
+*/
+.orderWindow{
+
+}
+img {
+height: 200px;
+  width: auto;
+}
+span {
+  font-weight: bold;
+}
+
+.highlightitem {
+  background-color: yellow;
+}
+
+.confirmation {
+  text-align: center;
+}
+
+.currentorder {
+    float-right;
+}
+
+.orderPreview {
+    
 }
