@@ -158,3 +158,27 @@ span {
 .orderPreview {
     
 }
+
+.dining-pic {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+    border: 2px solid maroon;
+}
+
+.hours {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+.td-t {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+.tr-t:nth-child(even) {
+    background-color: #dddddd;
+}
