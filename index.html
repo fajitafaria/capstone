@@ -3,8 +3,8 @@
 	<head>
 		<title>AR Menu</title>
 		<link type="text/css" rel="stylesheet" href="armenu-3.css">
-		<script src="menu-3.js"></script>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="menu-3.js"></script>	
 	</head>
 
 	<body>
@@ -21,16 +21,16 @@
 			</ul>
 		</nav>
 		-->
-		<div id="mySidenav" class="sidenav">
-			<!-- remove javascript from html -->
-  			<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
- 			<a href="armenu-3.html">Anselma Room</a></li>
-  			<a href="starbucks.html">Starbucks</a></li>
-  			<a href="subway.html">Subway</a></li>
-		</div>
+		<div class="topnav" id="myTopnav">
+      <a href="index.html" class="active">Home</a>
+      <a href="armenu-3.html">Anselma Room</a>
+      <a href="starbucks.html">Starbucks</a>
+      <a href="subway.html">Subway</a>
+      <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+    </div>
 
-		<!-- Use any element to open the sidenav -->
-		<span id="nav_button" onclick="openNav()">Menu</span>
+		<!-- Use any element to open the sidenav 
+		<span id="nav_button" onclick="openNav()">Menu</span> -->
 
 		<!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
 		<div id="main">
@@ -133,3 +133,4 @@
 		
 	</body>
 </html>
+
